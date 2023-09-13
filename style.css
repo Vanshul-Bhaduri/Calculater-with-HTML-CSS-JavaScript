@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(https://i.pinimg.com/474x/ec/23/61/ec236181062f5c53d4be5dbe6840aee5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+}
+.button{
+    text-shadow: 2px 2px 1px rgb(2, 0, 0),-2px -2px 1px rgb(0, 0, 0),2px 2px 1px rgb(0, 0, 0),2px 2px 1px rgb(0, 0, 0),2px 2px 1px rgb(0, 0, 0);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.139);
+    font-size: 20px;
+    padding: 20px ;
+    margin: 0 3px 5px 0;
+    border-radius: 9px;
+    box-shadow: 1px 1px 7px rgb(0, 0, 0),1px 1px 7px rgb(0, 0, 0),1px 1px 7px rgb(0, 0, 0),1px 1px 7px rgb(0, 0, 0);
+}
+.IOW{  
+    width: 100%;
+    padding: 10px 0 20px 0;
+}
+input{
+    text-shadow: 2px 2px 1px rgb(2, 0, 0),-2px -2px 1px rgb(0, 0, 0),2px 2px 1px rgb(0, 0, 0),2px 2px 1px rgb(0, 0, 0),2px 2px 1px rgb(0, 0, 0);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.066);
+    font-size: 19px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    height: 30px;
+
+}
+.container{
+    padding: 0 10px 10px 10px;
+}
+.calc{
+    /* background-image: url(https://i.pinimg.com/474x/7f/f6/3e/7ff63ee1d3dea783ce131429a2761cb6.jpg); */
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+
+    background-color:rgba(255, 255, 255, 0.066);
+    border-radius: 25px;
+    box-shadow: 1px 1px 15px black, 1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0);
+    padding: 10px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button:active{
+    transform: scale(0.89);
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size:50px;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255),-2px -2px 1px rgb(255, 255, 255),2px 2px 1px rgb(255, 255, 255),2px 2px 1px rgb(255, 255, 255),2px 2px 1px rgb(255, 255, 255);
+}
